@@ -3,7 +3,8 @@ head
   title File Upload
   link(rel='stylesheet' href='https://cdn.simplecss.org/simple.min.css')
 h1 Simple File Upload Form
-form(method='POST' action='submit' enctype='multipart/form-data')
-  input(name="uploaded_file" type='file' placeholder='Upload a file' accept='image/*')
+form#uploadForm
+  input(name="upload_file" type='file' placeholder='Upload a file' accept='image/*')
   input(type='submit' value="Upload File")
+  script(src='js/index.js')
 

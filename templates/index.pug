@@ -4,7 +4,7 @@ head
   link(rel='stylesheet' href='https://cdn.simplecss.org/simple.min.css')
 h1 Simple File Upload Form
 form#uploadForm
-  input(name="upload_file" type='file' placeholder='Upload a file' accept='image/*')
+  input(name="upload_file" id="upload_file" type='file' placeholder='Upload a file' accept='image/*' multiple='multiple')
   input(type='submit' value="Upload File")
   script(src='js/index.js')
 
